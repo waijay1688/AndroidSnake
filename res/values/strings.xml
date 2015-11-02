@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, snakemain!</string>
+    <string name="app_name">太空贪食蛇</string>
+    <string name="start_game">贪食蛇</string>
+    <string name="set">设置</string>
+    <string name="help">帮助 关于</string>
+    <string name="classical">经典模式</string>
+    <string name="time">时间竞赛</string>
+    <string name="pass">通关模式</string>
+    <string name="prop">道具模式</string>
+    <string-array name="setmap">
+       <item>地图一</item>
+       <item>地图二</item>
+       <item>地图三</item>
+       <item>地图四</item>
+       <item>地图五</item>
+    </string-array>
+    <string-array name="setmusic">
+       <item>音乐开</item>
+       <item>音乐关</item>
+    </string-array>
+    <string-array name="setgravity">
+       <item>重力感应开</item>
+       <item>重力感应关</item>
+    </string-array>
+</resources>

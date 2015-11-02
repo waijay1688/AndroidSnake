@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ImageView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/image"
+    />
+<AbsoluteLayout xmlns:adroid="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/setbackground"
+    >
+<Button
+    android:layout_width="120px"
+    android:layout_height="30px"
+    android:layout_x="120px"
+    android:layout_y="35px"
+    android:id="@+id/set1"
+    android:background="@drawable/set1"
+    />
+    <Spinner
+	android:id="@+id/setmap"
+	android:layout_width="60dip"
+	android:layout_height="30dip"
+	android:layout_x="240dip"
+	android:layout_y="35dip"
+	android:drawSelectorOnTop ="true"
+	android:background="@drawable/select"
+	android:textColor="@color/white"
+	/>		
+<Button
+    android:layout_width="120px"
+    android:layout_height="30px"
+    android:layout_x="120px"
+    android:layout_y="110px"
+    android:id="@+id/set2"
+    android:background="@drawable/set2"
+    />
+    	<Spinner
+	android:id="@+id/setmusic"
+	android:layout_width="60dip"
+	android:layout_height="30dip"
+	android:layout_x="240dip"
+	android:layout_y="110dip"
+	android:drawSelectorOnTop ="true"
+	android:background="@drawable/select"
+	/>	
+<Button
+    android:layout_width="120px"
+    android:layout_height="30px"
+    android:layout_x="120px"
+    android:layout_y="185px"
+    android:id="@+id/set3"
+    android:background="@drawable/set3"
+    />
+<Spinner
+    android:id="@+id/setgravity"
+    android:layout_width="100dip"
+    android:layout_height="30dip"
+    android:layout_x="240dip"
+    android:layout_y="185dip"
+    android:drawSelectorOnTop ="true"
+    android:background="@drawable/select"
+    />	
+<Button
+    android:layout_width="70px"
+    android:layout_height="20px"
+    android:layout_x="120px"
+    android:layout_y="245px"
+    android:id="@+id/yes"
+    android:background="@drawable/yes"
+    />
+<Button
+    android:layout_width="70px"
+    android:layout_height="20px"
+    android:layout_x="240px"
+    android:layout_y="245px"
+    android:id="@+id/no"
+    android:background="@drawable/no"
+    />
+</AbsoluteLayout>
+
+</FrameLayout>
